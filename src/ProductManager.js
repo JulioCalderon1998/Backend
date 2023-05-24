@@ -98,33 +98,5 @@ class ProductManager {
 
 };
 
+module.exports = ProductManager;
 
-
-const manager = new ProductManager("./products.json");
-
-async function main() {
-  // const allProducts = await manager.getProducts()
-  // console.log(allProducts)
-
-  // const result1 = await manager.addProduct('Heladera1', 'Heladera con freezer1', 7500, 'img1', 'ele101', 10)
-  // const result2 = await manager.addProduct('Heladera2', 'Heladera con freezer2', 8500, 'img2', 'ele102', 11)
-  // const result3 = await manager.addProduct('Heladera3', 'Heladera con freezer3', 9500, 'img3', 'ele103', 12)
-
-  // console.log({result1})
-  // console.log({result2})
-  // console.log({result3})
-
-
-  // const idProduct = await manager.getProductById(3)
-  // console.log(idProduct)
-
- // const result4 = await manager.updateProduct(5,{description: 'Heladera modificada 2', price: 15500, thumbnail: 'imgmod3'})
- // console.log({result4})
-
- // const result5 = await manager.deleteProduct(1)
- // console.log({result5})
-
-}
-
-
-main()
